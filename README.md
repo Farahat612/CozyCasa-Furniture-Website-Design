@@ -19,7 +19,7 @@ https://github.com/Farahat612/CozyCasa-Furniture-Website-Design/assets/67427124/
 
 ## Explore
 
-You can explore the website through this ([url](#)). 
+You can explore the website through this ([url](https://farahat612.github.io/CozyCasa-Furniture-Website-Design/)). 
 
 
 ## Key Features:
