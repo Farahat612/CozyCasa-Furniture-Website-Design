@@ -1,0 +1,442 @@
+/* ---------------------------- General ---------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #D7DBCA;
+  color: #444737;
+}
+
+
+
+    /* -------------------- General Heading styles -------------------- */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.title{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.header .line{
+  display: block;
+  width: 100px;
+  margin: auto;
+  height: 2px;
+  background-color: #4c5d49;
+  transition: width .5s;
+}
+.header:hover .line{
+  width: 150px;
+}
+/* ---------------------------- General ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- Section 01 ---------------------------- */
+.section1 {
+  margin: auto;
+  width: 85%; 
+}
+
+.banner img {
+  width: 100%;
+}
+/* ---------------------------- Section 01 ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- Section 02 ---------------------------- */
+.section2 {
+  margin: auto;
+  margin-top: 50px;
+  width: 85%;
+}
+
+
+  /* -------------------- Products Part -------------------- */
+
+.category-products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.category-products .category-product {
+  position: relative;
+}
+.category-products .category-product .pr-img img {
+  width: 100%;
+}
+
+.category-products .category-product h5 {
+  color: #44473796;
+  margin-bottom: 0;
+}
+
+.category-products .category-product h2 {
+  margin-top: -6px;
+}
+
+.category-products .category-product i {
+  background-color: #4c5d49;
+  color: #D7DBCA;
+  font-size: 20px;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.category-products .category-product:hover i {
+  visibility: visible;
+  opacity: 1;
+}
+  /* -------------------- Products Part -------------------- */
+
+
+  /* ---------------- Quote & Discounts Part --------------- */
+.special-discounts {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 10px;
+}
+
+      /* ---------------- Quote --------------- */
+.quote {
+  padding: 10px;
+  position: relative;
+}
+.quote .quote-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+.quote .quote-header .person {
+  padding: 9px;
+}
+.quote i {
+  font-size: 70px ;
+}
+.quote .quote-txt {
+  margin: 30px 0;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 700;
+}
+.quote-content .dashes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.quote-content span {
+  background-color: #444737;
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  margin-left: 10px;
+}
+      /* ---------------- Quote --------------- */
+
+
+      /* -------------- Discounts -------------- */
+.dc-img img {
+  width: 100%;
+}
+.dc-img {
+  transition: all 0.5s ease;
+}
+.dc-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+      /* -------------- Discounts -------------- */
+  /* ---------------- Quote & Discounts Part --------------- */
+
+
+  /* ------------------ Animated Icons Part ----------------- */
+.animated-icons {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.animated-icon {
+  border-left: 1px solid black;
+}
+#no-left-border {
+  border-left-color: transparent;
+}
+.animated-icon .the-icon {
+  height: 50px;
+  background-image: url(../images/service-icon.png);
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.animated-icon .the-icon1 {
+  background-position: center 5px;
+}
+  
+.animated-icon .the-icon1:hover {
+  background-position: center -89px;
+}
+  
+.animated-icon .the-icon2 {
+  background-position: center -180px;
+}
+  
+.animated-icon .the-icon2:hover {
+  background-position: center -273px;
+}
+  
+.animated-icon .the-icon3 {
+  background-position: center -364px;
+}
+  
+.animated-icon .the-icon3:hover {
+  background-position: center -457px;
+}
+  
+.animated-icon .the-icon4 {
+  background-position: center -548px;
+}
+
+.animated-icon .the-icon4:hover {
+    background-position: center -641px;
+}
+
+.animated-icon .the-icon5 {
+  background-position: center -732px;
+}
+
+.animated-icon .the-icon5:hover {
+  background-position: center -825px;
+}
+  /* ------------------ Animated Icons Part ----------------- */
+
+.section2 .underline {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #444737;
+}
+/* ---------------------------- Section 02 ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- Section 03 ---------------------------- */
+.section3 {
+
+  margin: auto;
+  margin-top: 90px;
+  width: 85%;
+}
+
+  /* -------------------- Links Part -------------------- */
+.section3 .head-links {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section3 .head-links .links-list {
+  list-style: none;
+}
+.section3 .head-links .links-list li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+  /* -------------------- Links Part -------------------- */
+
+
+
+
+  /* -------------------- Products Part -------------------- */
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.featured-products .featured-product {
+  position: relative;
+}
+
+      /* -------------- Product top -------------- */
+.featured-products .featured-product .pr-top img {
+  width: 100%;
+}
+
+.featured-products .featured-product .pr-top {
+  position: relative;
+}
+
+.featured-products .featured-product .pr-top .pr-overlay {
+  background-color: #D7DBCA;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform:scalex(0);
+  transition: all 0.6s ease;
+}
+.featured-products .featured-product:hover .pr-overlay {
+  transform:scalex(1);
+}
+
+.featured-products .featured-product .social-icons {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translatex(-50%);
+  text-align: center;
+}
+.featured-products .featured-product .social-icons i {
+  font-size: 30px;
+  display: inline-block;
+  margin: 10px 10px;
+  color: #b38d55;
+}
+
+.featured-products .featured-product .shop-now {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+.featured-products .featured-product .shop-now button {
+  background-color: #b38d55;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+      /* -------------- Product top -------------- */
+
+
+.featured-products .featured-product .blank {
+  width: 100%;
+  height: 80px;
+}
+
+
+      /* -------------- Product bottom -------------- */
+.featured-products .featured-product .pr-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.6s ease;
+  z-index: 100;
+}
+.featured-products .featured-product:hover .pr-bottom {
+bottom: 110px;
+left: 30px;
+color: #b38d55;
+}
+      /* -------------- Product bottom -------------- */
+  /* -------------------- Products Part -------------------- */
+/* ---------------------------- Section 03 ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- Footer ---------------------------- */
+footer {
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #444737;
+  color: #D7DBCA;
+  font-size: 0.8em;
+}
+footer img {
+  max-width: 200px;
+}
+footer i {
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #D7DBCA;
+}
+footer p {
+  margin-top: 10px;
+}
+/* ---------------------------- Footer ---------------------------- */
+
+
+
