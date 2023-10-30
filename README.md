@@ -4,7 +4,7 @@ A simple website design using only standard HTML and CSS for CozyCasa Furniture 
 
 ## Overview
 
-DataNex Solutions is a fictional furniture store dedicated to deliver modern and high quality furniture. With a relentless commitment to excellence and a client-centric approach, they provide very high quality end prducts for customers.
+CozyCasa is a fictional furniture store dedicated to deliver modern and high quality furniture. With a relentless commitment to excellence and a client-centric approach, they provide very high quality end prducts for customers.
 
 
 ## Description
